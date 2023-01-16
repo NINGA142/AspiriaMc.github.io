@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  <style>
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom right, lightgreen 50%, gray 50%)
+  }
+    h3 {
+      width: 100%
+      position: fixed;
+      text-align: center;
+      display: inline-block;
+      backdrop-filter: blur(10px);
+      text-shadow: 0 0 0px black;
+      box-shadow: 0 0 10px black;
+      padding: 10px;
+      border-radius: 50px
+    }
+    button {
+      position: fixed;
+      margin-top: 50%;
+      border: none;
+      padding: 6px;
+      font-size: 20px;
+      text-shadow: 0 0 0px black;
+      box-shadow: 0 0 10px black;
+      padding: 10px;
+      border-radius: 50px;
+      background: rgba(255, 255, 255, 0.4);
+      backdrop-filter: blur(10px)
+    }
+    a {
+      text-decoration: none;
+      color: black;
+    }
+  </style>
+</head>
+
+<body onload="open()">
+  
+  <h3>اگر وارد ماینکرافت نشدید کلید زیر رو فشار بدید</h3>
+  <button><a href="minecraft://?addExternalServer=AspiriaMc%20|%20Server|185.231.114.243:19132"> ورود دستی</a></button>
+</body>
+  <script>
+  window.open('minecraft://?addExternalServer=AspiriaMc%20|%20Server|185.231.114.243:19132');
+    function open()
+    {
+      window.open('minecraft://?addExternalServer=AspiriaMc%20|%20Server|185.231.114.243:19132');
+    }
+  </script>
+</html>
